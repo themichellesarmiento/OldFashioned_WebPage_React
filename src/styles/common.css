@@ -1,0 +1,41 @@
+.headline_new_in_btn,
+.add_btn,
+.section_btn,
+.quick_view_btn,
+.search_input,
+.view_less_btn,
+.view_more_btn,
+.browse_btn {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+
+.headline_new_in_btn:hover,
+.add_btn:hover,
+.section_btn:hover,
+.quick_view_btn:hover,
+.search_input:hover,
+.browse_btn:hover {
+    border: 1px solid var(--CTA-hover);
+    color: var(--CTA-hover);
+    cursor: grab;
+}
+
+.headline {
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about_us_link {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: 0.3s color;
+}
+
+.about_us_link:hover {
+    color: var(--CTA-hover);
+}

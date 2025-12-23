@@ -1,0 +1,49 @@
+.header_container {
+  /*NOTE: this image is generated through chatgpt*/
+  background-image: url(../assets/images/hero-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 1rem;
+
+}
+
+.header_contents {
+  text-align: center;
+}
+
+.header_title {
+  color: var(--primary-color);
+  font-family: 'Tenor Sans', Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+
+.header_subtitle {
+  color: var(--primary-color);
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width:769px) {
+
+  .header_title {
+    font-size: 5rem;
+    padding-top: 0;
+  }
+
+  .header_subtitle {
+    padding-bottom: 2rem;
+  }
+
+  .header_container {
+    min-height: 100vh;
+  }
+
+}

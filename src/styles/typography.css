@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Tenor Sans';
+    src: url(../assets/typography/TenorSans.woff2) format('woff2'),
+        url(../assets/typography/TenorSans.woff) format('woff');
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Outfit ExtraLight';
+    src: url(../assets/typography/Outfit-ExtraLight.woff2) format('woff2'),
+        url(../assets/typography/Outfit-ExtraLight.woff) format('woff');
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Outfit Light';
+    src: url(../assets/typography/Outfit-Light.woff2) format('woff2'),
+        url(../assets/typography/Outfit-Light.woff) format('woff');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Outfit Regular';
+    src: url(../assets/typography/Outfit-Regular.woff2) format('woff2'),
+        url(../assets/typography/Outfit-Regular.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Outfit Medium';
+    src: url(../assets/typography/Outfit-Medium.woff2) format('woff2'),
+        url(../assets/typography/Outfit-Medium.woff) format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Outfit Semibold';
+    src: url(../assets/typography/Outfit-SemiBold.woff2) format('woff2'),
+        url(../assets/typography/Outfit-SemiBold.woff) format('woff');
+    font-style: normal;
+    font-weight: 600;
+}

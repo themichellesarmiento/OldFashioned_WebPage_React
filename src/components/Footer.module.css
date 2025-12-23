@@ -1,0 +1,27 @@
+.footer {
+  background-color: var(--primary-color);
+  color: var(--tertiary-light);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.footer_newsletter_input {
+  background-color: var(--primary-color);
+  border: 0;
+  border-bottom: 2px solid var(--tertiary-light);
+  color: var(--tertiary-light);
+  max-width: 300px;
+  padding: 0.5rem 3rem 0.5rem 0;
+  width: 100%;
+}
+
+@media screen and (min-width:769px) {
+  .footer {
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+}

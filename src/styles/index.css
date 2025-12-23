@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #13493E;
+    --secondary-color: #606C38;
+    --tertiary-dark: #E1E6E5;
+    --tertiary-light: #FCFCFC;
+    --CTA-hover: #283618;
+    --error: #8d0801;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    color: var(--primary-color);
+    background-color: var(--tertiary-light);
+}
+
+h1 {
+    font-family: 'Outfit Regular', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Outfit Regular', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Outfit Light', Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+h4,
+p,
+a {
+    font-family: 'Outfit Light', Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+button,
+textarea,
+input,
+label,
+span {
+    font-family: 'Outfit ExtraLight', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}

@@ -1,0 +1,90 @@
+textarea {
+    height: 30vh;
+    width: 100%;
+}
+
+.contact_us_headline,
+.contact_us_subheadline,
+.customer_support_headline {
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact_us_subheadline {
+    margin: 0rem 2rem;
+}
+
+.form {
+    margin: 0.5rem 2rem;
+    padding: 1rem;
+    text-align: left;
+
+}
+
+.form input:required:focus {
+    border: 5px solid var(--error);
+
+}
+
+.user_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+
+}
+
+.submit {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--tertiary-light);
+    cursor: grab;
+    padding: 0.5rem 1.5rem;
+    text-transform: uppercase;
+}
+
+.submit:hover {
+    background-color: var(--CTA-hover);
+    border: 1px solid var(--CTA-hover);
+
+}
+
+.customer_support {
+    text-align: center;
+}
+
+.contact_us_customer_service {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.image_container {
+    padding-top: 2rem;
+
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:769px) {
+
+    .contact_us_customer_service {
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .image_container {
+        flex-shrink: 2;
+    }
+
+    .customer_support {
+        align-self: center;
+    }
+
+}
