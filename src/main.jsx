@@ -4,7 +4,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './styles/index.css'
 import './styles/common.css'
 import './styles/typography.css'
-import App from './App.jsx'
+import Home from './Home.jsx'
 import CommonLayout from './routes/CommonLayout.jsx'
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     path: '/',
     element: <CommonLayout />,
     children: [
-      { path: '/', element: <App /> },
+      { path: '/', element: <Home /> },
       { path: '/about', element: <About /> },
       { path: '/contact-us', element: <Contact /> }
     ],

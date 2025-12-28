@@ -1,0 +1,14 @@
+.cards_contents {
+  align-content: end;
+  background-color: var(--tertiary-dark);
+  flex: 0 0 calc(25% - 0.5rem);
+  justify-items: center;
+  padding: 0.5rem;
+  text-align: center;
+
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}

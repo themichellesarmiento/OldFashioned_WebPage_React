@@ -1,11 +1,10 @@
 .headline_new_in_btn,
 .add_btn,
 .section_btn,
-.quick_view_btn,
 .search_input,
 .view_less_btn,
 .view_more_btn,
-.browse_btn {
+.btn{
     border: 1px solid var(--secondary-color);
     color: var(--secondary-color);
     padding: 1rem 2rem;
@@ -15,9 +14,8 @@
 .headline_new_in_btn:hover,
 .add_btn:hover,
 .section_btn:hover,
-.quick_view_btn:hover,
 .search_input:hover,
-.browse_btn:hover {
+.btn:hover {
     border: 1px solid var(--CTA-hover);
     color: var(--CTA-hover);
     cursor: grab;

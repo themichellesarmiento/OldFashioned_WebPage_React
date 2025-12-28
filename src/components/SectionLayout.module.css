@@ -1,0 +1,28 @@
+.section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.headline {
+  letter-spacing: 0.1rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+  margin: 1.5rem;
+
+}
+
+@media screen and (min-width:769px) {
+  .card_wrapper {
+    flex-direction: row;
+  }
+}

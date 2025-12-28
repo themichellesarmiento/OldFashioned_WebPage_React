@@ -1,0 +1,16 @@
+.main_headline {
+    letter-spacing: 0.1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.browse_btn {
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+
+@media  screen and (min-width:769px) {
+    .browse_btn {
+        width: 100%;
+    }
+}
