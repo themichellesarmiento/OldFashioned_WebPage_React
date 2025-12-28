@@ -15,6 +15,17 @@
   background-size: cover;
 }
 
+/* FIX LATER */
+.cart {
+  height: 30px;
+  width: 30px;
+  background-image: url(../assets/icons/shopping_bag.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin-top: 1rem;
+}
+
 .menu_items_wrapper {
   display: flex;
   justify-content: space-around;
@@ -46,14 +57,14 @@
 
 }
 
-.menu_items_wrapper a{
-    color: var(--secondary-color);
-    text-decoration: none;
-    transition: 0.3s color;
+.menu_items_wrapper a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: 0.3s color;
 }
 
 .menu_items_wrapper a:hover {
-    color: var(--CTA-hover);
+  color: var(--CTA-hover);
 }
 
 .menu_items_wrapper li.active h4 {

@@ -1,5 +1,8 @@
+import { useContext } from 'react';
+
 import Card from './components/Card';
 import Section from './components/SectionLayout';
+import CartContext from './store/CartContext';
 import './Home.css'
 
 import product1 from './assets/images/new_product1.png'
@@ -14,8 +17,13 @@ import categories2 from './assets/images/categories_shirts.png'
 import categories3 from './assets/images/categories_swimwear.png'
 import categories4 from './assets/images/categories_sweatshirts.png'
 
+// TODO: Refactor this once backend is ready
+const Home = ({product}) => {
+  const cardContext = useContext(CartContext);
 
-const Home = () => {
+  const addToCart =()=>{
+    cardContext.addItem(product);
+  }
 
   return (
     <>
@@ -27,9 +35,9 @@ const Home = () => {
         <Card imageSrc={product4} altText='A picture of a guy with a shirt' productLabel='Gin Tonic Tees' productPrice='250 SEK' buttonLabel='Quick View' />
       </Section>
       <Section headline='Loved By You - Best Seller' buttonLabel='Best Seller'>
-        <Card imageSrc={bestSeller1} altText='Guy covering eyes with 3 hats on' productLabel='Gin Tonic Shirt' productPrice='250 SEK' buttonLabel='Add To Cart' />
-        <Card imageSrc={bestSeller2} altText='Girl and a guy smiling' productLabel='Pina Colada Shirt' productPrice='250 SEK' buttonLabel='Add To Cart' />
-        <Card imageSrc={bestSeller3} altText='Picture of three guys' productLabel='Vodka Sweatshirt' productPrice='450 SEK' buttonLabel='Add To Cart' />
+        <Card imageSrc={bestSeller1} altText='Guy covering eyes with 3 hats on' productLabel='Gin Tonic Shirt' productPrice='250 SEK' buttonLabel='Add To Cart' onButtonClick={()=> addToCart(product)}/>
+        <Card imageSrc={bestSeller2} altText='Girl and a guy smiling' productLabel='Pina Colada Shirt' productPrice='250 SEK' buttonLabel='Add To Cart' onButtonClick={()=> addToCart(product)} />
+        <Card imageSrc={bestSeller3} altText='Picture of three guys' productLabel='Vodka Sweatshirt' productPrice='450 SEK' buttonLabel='Add To Cart' onButtonClick={()=> addToCart(product)}/>
         <Card buttonLabel='View More' />
       </Section>
       <Section headline='What are you looking for?' buttonLabel='Browse Categories'>

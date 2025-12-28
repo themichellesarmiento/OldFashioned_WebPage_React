@@ -23,7 +23,7 @@ const NavBar = () => {
           </Link>
         </li>
          <li>
-         <Button>Cart</Button>
+          <span className={classes.cart}></span>
         </li>
       </ul>
     </nav>
