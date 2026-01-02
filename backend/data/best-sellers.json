@@ -1,0 +1,26 @@
+[
+  {
+    "id": "b1",
+    "name": "Gin Tonic Shirt",
+    "price": "250 SEK",
+    "image": "/images/bestseller_product1.png",
+    "altText": "Guy covering eyes with 3 hats on",
+    "rating": "3"
+  },
+  {
+    "id": "b2",
+    "name": "Pina Colada Shirt",
+    "price": "350 SEK",
+    "image": "/images/bestseller_product2.png",
+    "altText": "Girl and guy smiling",
+    "rating": "4"
+  },
+  {
+    "id": "b3",
+    "name": "Vodka Sweatshirt",
+    "price": "500 SEK",
+    "image": "/images/bestseller_product3.png",
+    "altText": "Picture of three guys",
+    "rating": "5"
+  }
+]

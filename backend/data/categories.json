@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c1",
+    "category": "Hats",
+    "image": "/images/categories_hats.png",
+    "altText": "Holding a hat"
+  },
+  {
+    "id": "c2",
+    "category": "Shirts",
+    "image": "/images/categories_shirts.png",
+    "altText": "Picture of shirts"
+  },
+  {
+    "id": "c3",
+    "category": "Swimwear",
+    "image": "/images/categories_swimwear.png",
+    "altText": "Green swimwear"
+  },
+  {
+    "id": "c4",
+    "category": "Sweatshirts",
+    "image": "/images/categories_sweatshirts.png",
+    "altText": "Shirts pilled on top of each other"
+  }
+]

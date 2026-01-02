@@ -1,0 +1,20 @@
+[
+  {
+    "id":"r1",
+    "author": "F.L",
+    "comment":"Great print! Quality and idea!",
+    "rating":"5"
+  },
+   {
+    "id":"r2",
+    "author": "K.L",
+    "comment":"he only shirt i will wear this summer!",
+    "rating":"5"
+  },
+   {
+    "id":"r1",
+    "author": "W.E",
+    "comment":"So comfy! Love it",
+    "rating":"5"
+  }
+]

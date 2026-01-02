@@ -1,0 +1,19 @@
+{
+  "name": "oldfashioned_backend",
+  "version": "1.0.0",
+  "description": "Data for the oldfashioned webpage",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Michelle S.",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.2.1"
+  }
+}

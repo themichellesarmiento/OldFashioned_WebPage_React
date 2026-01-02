@@ -16,14 +16,16 @@
 }
 
 /* FIX LATER */
+.cartItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .cart {
   height: 30px;
-  width: 30px;
-  background-image: url(../assets/icons/shopping_bag.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 30px; 
   display: block;
-  margin-top: 1rem;
 }
 
 .menu_items_wrapper {

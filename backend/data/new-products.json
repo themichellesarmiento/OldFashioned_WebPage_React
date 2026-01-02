@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Gin Tonic Shirt",
+    "price": "250 SEK",
+    "image": "/images/new_product1.png",
+    "altText": "A picture of a girl with a shirt"
+  },
+  {
+    "id": "2",
+    "name": "Pina Colada Shirt",
+    "price": "350 SEK",
+    "image": "/images/new_product2.png",
+    "altText": "A picture of a guy with a shirt"
+  },
+  {
+    "id": "3",
+    "name": "Vodka Sweatshirt",
+    "price": "450 SEK",
+    "image": "/images/new_product3.png",
+    "altText": "A picture of a guy with a sweater"
+  },
+  {
+    "id": "4",
+    "name": "Gin Tonic Tees",
+    "price": "250 SEK",
+    "image": "/images/new_product4.png",
+    "altText": "A picture of a girl with a shirt"
+  }
+]
