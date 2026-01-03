@@ -16,15 +16,25 @@
 }
 
 /* FIX LATER */
-.cartItem {
+.cartButton {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  padding: 1rem 0rem;
+  background: none;
+  border: none;
+  color: inherit;
 }
 
-.cart {
+.cartButton:hover {
+  border: none;
+  color: none;
+
+}
+
+.cartIcon {
   height: 30px;
-  width: 30px; 
+  width: 30px;
   display: block;
 }
 
@@ -37,6 +47,7 @@
 
 .menu_items_wrapper li {
   list-style-type: none;
+  padding: 0.25rem 0.5rem;
 }
 
 .menu_items_wrapper h4 {

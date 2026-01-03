@@ -1,5 +1,5 @@
 import classes from './About.module.css'
-import image from '../assets/images/about-us-blackandwhite.png'
+import image from '../../assets/images/about-us-blackandwhite.png'
 import { Link } from 'react-router-dom'
 
 const About = () => {

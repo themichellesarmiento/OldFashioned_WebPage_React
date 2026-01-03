@@ -37,3 +37,63 @@
 .about_us_link:hover {
     color: var(--CTA-hover);
 }
+
+.modal {
+
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  width: 80%;
+  max-width: 40rem;
+  animation: fade-slide-up 0.3s ease-out forwards;
+}
+
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+
+.input {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.input label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input input {
+  width: 100%;
+  max-width: 20rem;
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.input_controls {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.modal_buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem
+}
+
+@keyframes fade-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

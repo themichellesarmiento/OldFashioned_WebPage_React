@@ -6,9 +6,10 @@ import './styles/common.css'
 import './styles/typography.css'
 import Home from './Home.jsx'
 import CommonLayout from './routes/CommonLayout.jsx'
-import About from './components/About.jsx'
-import Contact from './components/Contact.jsx'
+import About from './components/Pages/About.jsx'
+import Contact from './components/Pages/Contact.jsx'
 import { CartContextProvider } from './store/CartContext.jsx'
+import { UserActionContextProvider } from './store/UserActionContext.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,8 +25,10 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <CartContextProvider>
-      <RouterProvider router={router} />
-    </CartContextProvider>
+    <UserActionContextProvider>
+      <CartContextProvider>
+        <RouterProvider router={router} />
+      </CartContextProvider>
+    </UserActionContextProvider>
   </StrictMode>,
 )

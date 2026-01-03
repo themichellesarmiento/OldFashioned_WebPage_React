@@ -48,7 +48,7 @@ const Home = () => {
             onButtonClick={() => cardContext.addItem(product)} />
 
         ))}
-        <Card buttonLabel='View More' />
+        <Card buttonLabel='View More'/>
 
       </Section>
 

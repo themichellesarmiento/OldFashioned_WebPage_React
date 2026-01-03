@@ -1,5 +1,5 @@
 import classes from './Contact.module.css'
-import image from '../assets/images/hero-image-blackandwhite.png'
+import image from '../../assets/images/hero-image-blackandwhite.png'
 
 const Contact = () => {
   return (
